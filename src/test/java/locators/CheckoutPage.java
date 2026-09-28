@@ -28,6 +28,7 @@ public class CheckoutPage {
     private final By mobileNumberInput = By.xpath("//input[@id='mobile']");
     private final By reviewOrderBtn = By.xpath("(//button[@type='submit'])[2]");
     private final By confirmOrderBtn = By.xpath("(//button[@type='button'])[2]");
+    private final By buttonduplicate = By.xpath("(//button[@id='button'])[2]");
     private final By confirmationBanner = By.xpath("//h1[text() ='Thanks for shopping.']");
     public CheckoutPage(WebDriver driver) {
             this.driver = driver;
